@@ -1,5 +1,5 @@
 import os
-import os.path
+
 
 print(os.getcwd())
 
@@ -34,3 +34,32 @@ for dirpath,dirnames,filenames in os.walk("c:\\users\\cxu\\PycharmProjects"):
     print('Files:', filenames)
     print()
 
+print(os.environ)
+print(os.environ.get('PATH'))
+
+home_path = os.environ.get('HOMEPATH')
+file_path = os.path.join(home_path, 'test.txt')
+print(file_path)
+
+#working with files
+with open(file_path,'w') as f:
+    f.write('xxx')
+#basename- grab file name  basename
+print(os.path.basename('c:\\users\cxu\\test.txt'))
+#diritory name
+print(os.path.dirname('c:\\users\cxu\\test.txt'))
+#both name
+print(os.path.split('c:\\users\cxu\\test.txt'))
+#existing
+print(os.path.exists('c:\\users\cxu\\test.txt'))
+#is
+print(os.path.isdir('c:\\users\cxu'))
+print(os.path.isfile('c:\\users\cxu'))
+#split ext
+print(os.path.splitext('c:\\users\cxu\\test.txt'))
+#split drv
+print(os.path.splitdrive('c:\\users\cxu\\test.txt'))
+
+
+#how to use os.path
+print(dir(os.path))
