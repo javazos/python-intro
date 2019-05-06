@@ -21,9 +21,9 @@ os.rename('car1.py','car.py')
 mod_time = os.stat('car.py').st_mtime
 c_time = os.stat('car.py').st_ctime
 
-from datetime import datetime
-print('file maintained last time at {}.'.format(datetime.fromtimestamp(mod_time)))
-print('file created at {}.'.format(datetime.fromtimestamp(c_time)))
+from datetime_intro import datetime_intro
+print('file maintained last time at {}.'.format(datetime_intro.fromtimestamp(mod_time)))
+print('file created at {}.'.format(datetime_intro.fromtimestamp(c_time)))
 
 #traverse
 print(type(os.walk("c:\\users\\cxu")))   #<class 'generator'>
