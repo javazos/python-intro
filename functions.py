@@ -1,3 +1,6 @@
+def myfunc(a,b,c=1,d=2,e=3):
+    print(a,b,c,d,e)
+
 def hello_func(*args,**kwargs):
     print(args)
     for arg in args:
@@ -12,7 +15,7 @@ def hello_func(*args,**kwargs):
     for kwarg in kwargs.values():
         print('{},{}'.format(type(kwarg), kwarg))
 
-
+myfunc(10,20)
 hello_func('1','2','3',name='John',Age=22)
 in_args = (10,11,12)
 in_kwargs = {'course':'math','school':'uot'}
