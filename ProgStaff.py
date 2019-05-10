@@ -18,8 +18,10 @@ class ProgStaff:
         print('Company name is ', ProgStaff.companyName)
         print('Salary is ', self.salary)
 
-peter = ProgStaff(2000)
-john  = ProgStaff(3000)
+# peter = ProgStaff(2000)
+# john  = ProgStaff(3000)
+#
+# peter.printInfo()
+# john.printInfo()
 
-peter.printInfo()
-john.printInfo()
+

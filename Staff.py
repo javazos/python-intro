@@ -20,6 +20,26 @@ class Staff:
         print("Getter method")
         return self._position
 
-officeStaff1 = Staff('Basic','Yvonne',0)
-print(officeStaff1)
-print(officeStaff1.calculatePay())
+class ManagementStaff(Staff):
+    def __init__(self,name,pay,allowance,bonus):
+        # super method to call base class __init__ method
+        super().__init__('Manager',name,pay)
+        self.allowance = allowance
+        self.bonus = bonus
+
+    def calculatePay(self):
+        basicPay = super().calculatePay()
+        self.pay = basicPay + self.allowance
+        return self.pay
+    def calculatePerfBonus(self):
+        prompt="Enter performance grade for {}".format(self.name)
+        grade =input(prompt)
+        return 1000 if grade == 'A' else 0
+
+class BasicStaff(Staff):
+    def __init__(self,name,pay):
+        super().__init__("Basic",name,pay)
+
+# officeStaff1 = Staff('Basic','Yvonne',0)
+# print(officeStaff1)
+# print(officeStaff1.calculatePay())
