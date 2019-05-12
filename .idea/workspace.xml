@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74bbe9e9-b0a4-4983-abac-41474e45522b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameclasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/gameclasses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gametasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/gametasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scorefile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scorefile.txt" afterDir="false" />
     </list>
@@ -17,26 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gametasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="76" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scorefile.txt">
+        <entry file="file://$PROJECT_DIR$/gameclasses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scorefile1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="279">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -108,15 +100,15 @@
         <option value="$PROJECT_DIR$/ProgStaff.py" />
         <option value="$PROJECT_DIR$/Staff.py" />
         <option value="$PROJECT_DIR$/inheritancedemo.py" />
-        <option value="$PROJECT_DIR$/gameclasses.py" />
         <option value="$PROJECT_DIR$/project.py" />
         <option value="$PROJECT_DIR$/scorefile1.txt" />
-        <option value="$PROJECT_DIR$/gametasks.py" />
         <option value="$PROJECT_DIR$/scorefile.txt" />
+        <option value="$PROJECT_DIR$/gametasks.py" />
+        <option value="$PROJECT_DIR$/gameclasses.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
@@ -212,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gametasks">
+  <component name="RunManager" selected="Python.gameclasses">
     <configuration name="Staff" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +218,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Staff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gameclasses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gameclasses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,34 +310,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="methoddemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myclasses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gameclasses" />
         <item itemvalue="Python.gametasks" />
         <item itemvalue="Python.inheritancedemo" />
         <item itemvalue="Python.Staff" />
         <item itemvalue="Python.importClasses" />
-        <item itemvalue="Python.methoddemo" />
       </list>
     </recent_temporary>
   </component>
@@ -342,16 +334,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3200953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31930104" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42122185" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.59003216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21061093" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4067524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,8 +376,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gametasks.py</url>
-          <line>70</line>
+          <line>72</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gametasks.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gametasks.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gametasks.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gameclasses.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -658,37 +670,41 @@
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gameclasses.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scorefile.tmp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gametasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        <state relative-caret-position="129">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scorefile1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="5" selection-end-line="2" selection-end-column="9" />
+          <caret line="1" column="1" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scorefile.tmp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/scorefile.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gametasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameclasses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>

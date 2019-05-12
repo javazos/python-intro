@@ -40,7 +40,7 @@ class GamesTasks:
         contents = {}
         if newuser:
             with open('scorefile.txt','a') as f:
-                newline =  '\n'+username+ ','+ str(newscore)
+                newline =  username+ ','+ str(newscore)
                 f.write(newline)
                 f.close()
         # existing user , update the score
@@ -55,13 +55,15 @@ class GamesTasks:
             with open('scorefile.tmp', 'a') as fwrite:
                 for name,score in contents.items():
                     if name == username:
-                        oldline =  username+ ','+ str(score)
+                        oldline =  username+ ','+ str(newscore) +'\n'
                     else:
                         oldline = name + ',' + str(score)
+                    print(oldline)
                     fwrite.write(oldline)
             fwrite.close()
-        remove('scorefile.txt')
-        rename('scorefile.tmp', 'scorefile.txt')
+            remove('scorefile.txt')
+            print('rename')
+            rename('scorefile.tmp', 'scorefile.txt')
 
 
 
@@ -69,4 +71,7 @@ class GamesTasks:
 if __name__ == '__main__':
     gTasks = GamesTasks("tests")
     print(gTasks.getuserscore('cx'))
-    gTasks.updateUserScore(False,'cx',999)
+    # gTasks.updateUserScore(False,'cx',999)
+    # gTasks.updateUserScore(True,'Bryan',1000)
+    # gTasks.updateUserScore(False, 'Bryan', 899)
+    # gTasks.updateUserScore(True, 'Yini', 600)
